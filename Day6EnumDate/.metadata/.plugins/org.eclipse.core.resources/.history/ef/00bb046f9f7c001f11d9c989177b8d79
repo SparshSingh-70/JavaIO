@@ -1,0 +1,5 @@
+package com.cdac.acts.courseenum;
+
+public enum CourseEnum {
+		
+}

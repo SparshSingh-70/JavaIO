@@ -1,0 +1,7 @@
+package com.cdac.acts.utils;
+
+public class DateUtils {
+	private static final String FORMAT = "dd/MM/yyyy";
+	private static final String EMPTY = "";
+	
+}

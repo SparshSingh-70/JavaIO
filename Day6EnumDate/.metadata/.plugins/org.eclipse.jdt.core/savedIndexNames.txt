@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+E:\Batch2JAVA\CoreJAVA\Day6EnumDate\.metadata\.plugins\org.eclipse.jdt.core
+3460567019.index
+4251656175.index
+3076715698.index
+1865797976.index
+2911235221.index
+3227894820.index
+2783108593.index
+1680618978.index

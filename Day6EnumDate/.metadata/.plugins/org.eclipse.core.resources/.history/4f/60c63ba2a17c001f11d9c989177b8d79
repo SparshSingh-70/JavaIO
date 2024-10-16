@@ -1,0 +1,24 @@
+package com.cdac.acts.utils;
+
+import java.util.Date;
+
+public class DateUtils {
+	private static final String FORMAT = "dd/MM/yyyy";
+	private static final String EMPTY = "";
+	
+	private DateUtils() {
+		// do nothing constructor to stop from object instantiation
+	}
+	
+	
+	public static Date getDate(String strdate) {
+		if(strdate == null || EMPTY.equals(strdate)) {
+			return null;
+		}
+		
+		
+	}
+	
+	
+	
+}

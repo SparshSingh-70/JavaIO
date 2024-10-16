@@ -1,0 +1,7 @@
+package com.cdac.acts.courseenum;
+
+public enum CourseEnum {
+	PG_DAC("Diploma in Advanced Computing"),
+	PG_DESD("Diploma in ESD"),
+	PG_VLSI("Diploma in VLSI");
+}

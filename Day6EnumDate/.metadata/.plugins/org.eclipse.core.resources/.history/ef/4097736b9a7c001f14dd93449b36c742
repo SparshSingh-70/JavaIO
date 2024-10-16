@@ -1,0 +1,15 @@
+
+public class EnumGradeTest {
+	public static void main(String[] args) {
+		GradeEnum ge1 =  GradeEnum.GRADE_1;
+		GradeEnum ge2 =  GradeEnum.GRADE_2;
+		
+		System.out.println(ge1.getValue());
+		System.out.println(ge2.getValue());
+		System.out.println(ge1.ordinal());
+		System.out.println(ge1.name());
+		
+		
+		
+	}
+}

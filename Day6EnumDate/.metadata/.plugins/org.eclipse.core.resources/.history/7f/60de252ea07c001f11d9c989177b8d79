@@ -1,0 +1,37 @@
+
+public class Student {
+	
+	private int rno;
+	private String name;
+	private double marks;
+	
+	private static int rnoGen = 1;
+	 
+	public Student(){
+		this.rno = rnoGen++;
+		this.name = "";
+		this.marks = 0;
+	}
+	
+	public Student(String name, double marks) {
+		this.rno = rnoGen++;
+		this.name = name;
+		this.marks = marks;
+	}
+	
+	public int getRno() {
+		return this.rno;
+	}
+	
+	public double getMarks() {
+		return this.marks;
+	}
+	
+	@Override
+	public String toString() {
+		
+		return "Student Data: [ Student Roll No: " + rno + " , Student Name: " + name + " , Marks: " + marks + " ]";
+		
+	}
+	
+}
